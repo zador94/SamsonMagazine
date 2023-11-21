@@ -1,43 +1,43 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О компании", 
-		"./", 
+		"Компания", 
+		"/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Отзывы", 
-		"/company/otzyvy/", 
+		"фффф", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Руководство", 
-		"management.php", 
+		"фффф", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Миссия и стратегия", 
-		"mission.php", 
+		"фффф", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"История", 
-		"history.php", 
+		"фффф", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Вакансии", 
-		"vacancies.php", 
+		"фффф", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 

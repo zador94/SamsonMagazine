@@ -28,5 +28,8 @@ $APPLICATION->SetTitle("Мебельная компания");
 	false
 );?>
 
-
+<?php
+$a = ['qwe', 123];
+test_dump($a);
+?>
 </p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
