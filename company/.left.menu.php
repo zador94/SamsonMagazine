@@ -44,7 +44,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Новый подраздел", 
-		"/company/novyy-podrazdel", 
+		"/company/novyy-podrazdel/", 
 		Array(), 
 		Array(), 
 		"" 

@@ -2,44 +2,61 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Условия сотрудничества");
 ?><div>
- <span style="font-family: Times New Roman, Times; font-size: 12pt;">Участие в партнерской программе выводит бизнес веб-разработчиков на новый уровень, позволяет: </span><br>
- <span style="font-family: Times New Roman, Times;"> </span>
-</div>
- <span style="font-family: Times New Roman, Times;"> </span>
-<div>
- <span style="font-family: Times New Roman, Times;"> </span><br>
+ <span style="font-family: Times New Roman, Times; font-size: 12pt;">Участие в партнерской программе выводит бизнес веб-разработчиков на новый уровень, позволяет:</span>
 </div>
 <div>
 	<table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
 	<tr>
 		<td>
- <img width="219" alt="aaaaaa.png" src="/upload/medialibrary/d97/t0ws0diorfzbh5kubg6yf6ph9uf2fbo6.png" height="219" title="aaaaaa.png">&nbsp;
+ <img width="200" alt="aaaaaa.png" src="/upload/medialibrary/d97/t0ws0diorfzbh5kubg6yf6ph9uf2fbo6.png" height="200" title="aaaaaa.png">&nbsp;
 		</td>
 		<td>
 			 &nbsp;<br>
+			<ul>
+				<li> <b>Работать с крупными корпоративными заказчиками</b></li>
+			</ul>
  <b>
-			<ul>
-				<li><span style="font-family: Times New Roman, Times; font-size: 12pt;">Работать с крупными корпоративными заказчиками</span></li>
+			<ul style="text-align: justify;">
 			</ul>
- <span style="font-size: 12pt;"> </span></b><br>
- <span style="font-size: 12pt;"> </span><span style="font-family: Times New Roman, Times; font-size: 12pt;">
-			Такие заказчики тщательно подходят к вопросу снижения рисков и выбирают стандартную, распространенную, отчуждаемую от разработчика и функциональную платформу «1С-Битрикс: Управление сайтом».</span><br>
- <span style="font-size: 12pt;"> </span><span style="font-family: Times New Roman, Times; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
-			<ul>
-				<li><b><span style="font-family: Times New Roman, Times; font-size: 12pt;">Повысить сложность проектов </span></b></li>
+ </b> <span style="font-size: 12pt;"> </span>
+			<blockquote>
+ <span style="font-family: Times New Roman, Times; font-size: 12pt;">
+				<blockquote style="text-align: center;">
+					<blockquote style="text-align: left;">
+						Такие заказчики тщательно подходят к вопросу снижения рисков и выбирают стандартную, распространенную, отчуждаемую от разработчика и функциональную платформу «1С-Битрикс: Управление сайтом».
+					</blockquote>
+				</blockquote>
+ </span>
+			</blockquote>
+			<ul style="text-align: justify;">
+				<li><b style="text-align: center; font-family: var(--ui-font-family-primary, var(--ui-font-family-helvetica));"><span style="font-family: Times New Roman, Times; font-size: 12pt;">Повысить сложность проектов</span></b></li>
+				<ul style="text-align: justify;">
+				</ul>
 			</ul>
- <span style="font-size: 12pt;"> </span><span style="font-family: Times New Roman, Times; font-size: 12pt;">
-			Готовые функциональные возможности платформы позволяют работать над более функциональными и сложными, но и более дорогими и интересными проектами.</span><br>
- <span style="font-size: 12pt;"> </span><br>
- <span style="font-size: 12pt;"> </span><span style="font-family: Times New Roman, Times; font-size: 12pt;"> </span><span style="font-size: 12pt;"> </span>
-			<ul>
-				<li><b><span style="font-family: Times New Roman, Times; font-size: 12pt;">Повысить качество проектов</span></b></li>
+ <span style="font-size: 12pt;"> </span>
+			<blockquote>
+ <span style="font-family: Times New Roman, Times; font-size: 12pt;">
+				<blockquote style="text-align: center;">
+					<blockquote style="text-align: left;">
+						Готовые функциональные возможности платформы позволяют работать над более функциональными и сложными, но и более дорогими и интересными проектами.
+					</blockquote>
+				</blockquote>
+ </span>
+			</blockquote>
+			<ul style="text-align: justify;">
+				<li><b style="text-align: center; font-family: var(--ui-font-family-primary, var(--ui-font-family-helvetica));"><span style="font-family: Times New Roman, Times; font-size: 12pt;">Повысить качество проектов</span></b></li>
 			</ul>
- <span style="font-size: 12pt;"> </span><br>
- <span style="font-size: 12pt;"> </span><span style="font-family: Times New Roman, Times;"><span style="font-size: 12pt;">
-			Платформа тщательно тестируется, всегда доступна служба технической поддержки. Это дает партнерам возможность добиваться высокого качества реализуемых проектов.</span><br>
- <span style="font-size: 12pt;"> </span><br>
+ <span style="font-size: 12pt;"> </span>
+			<blockquote>
+ <span style="font-family: Times New Roman, Times;"><span style="font-size: 12pt;"> </span></span>
+			</blockquote>
+			<blockquote style="text-align: center;">
+ <span style="font-family: Times New Roman, Times;"><span style="font-size: 12pt;">Платформа тщательно тестируется, всегда доступна служба технической поддержки. Это дает партнерам возможность добиваться высокого качества реализуемых проектов.</span></span>
+			</blockquote>
+			<p style="text-align: center;">
+			</p>
+ <span style="font-family: Times New Roman, Times;"> <span style="font-size: 12pt;"> </span><br>
  </span>
 		</td>
 	</tr>
@@ -109,4 +126,5 @@ $APPLICATION->SetTitle("Условия сотрудничества");
 </div>
 <div>
  <br>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
