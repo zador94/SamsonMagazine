@@ -1,21 +1,24 @@
-<?php
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-
-
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+?><?
 global $APPLICATION;
-
-$aMenuLinksExt = $APPLICATION->IncludeComponent("bitrix:menu.sections", "", array(
-    "IS_SEF" => "Y",
-    "SEF_BASE_URL" => "",
-    "SECTION_PAGE_URL" => "#SECTION_ID#/",
-    "DETAIL_PAGE_URL" => "#SECTION_ID#/#ELEMENT_ID#",
-    "IBLOCK_TYPE" => "products",
-    "IBLOCK_ID" => "2",
-    "DEPTH_LEVEL" => "3",
-    "CACHE_TYPE" => "A",
-    "CACHE_TIME" => "36000000"
-),
-false
+$aMenuLinksExt = $APPLICATION->IncludeComponent(
+	"bitrix:menu.sections", 
+	"", 
+	array(
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"DEPTH_LEVEL" => "3",
+		"DETAIL_PAGE_URL" => "#SECTION_ID#/#ELEMENT_ID#",
+		"IBLOCK_ID" => "2",
+		"IBLOCK_TYPE" => "products",
+		"ID" => $_REQUEST["ID"],
+		"IS_SEF" => "N",
+		"SECTION_PAGE_URL" => "#SECTION_ID#/",
+		"SECTION_URL" => "",
+		"SEF_BASE_URL" => "/catalog/"
+	),
+	false
 );
-
-$aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
+$aMenuLinks = array_merge($aMenuLinksExt, $aMenuLinks)
+?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

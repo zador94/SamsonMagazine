@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Тестовая");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
-	"slider_revew_andru", 
+	"stock_andru", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -30,8 +30,8 @@ $APPLICATION->SetTitle("Тестовая");
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "7",
-		"IBLOCK_TYPE" => "service",
+		"IBLOCK_ID" => "8",
+		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
@@ -47,9 +47,10 @@ $APPLICATION->SetTitle("Тестовая");
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"PROPERTY_CODE" => array(
-			0 => "JOB_TITLE",
-			1 => "NAME_COMPANY",
-			2 => "",
+			0 => "",
+			1 => "JOB_TITLE",
+			2 => "NAME_COMPANY",
+			3 => "",
 		),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
@@ -63,7 +64,7 @@ $APPLICATION->SetTitle("Тестовая");
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
 		"STRICT_SECTION_CHECK" => "N",
-		"COMPONENT_TEMPLATE" => "slider_revew_andru"
+		"COMPONENT_TEMPLATE" => "stock_andru"
 	),
 	false
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
