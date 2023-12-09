@@ -42,28 +42,21 @@ $APPLICATION->SetTitle("Контакты");
 );?><br>
  <br>
 <h2>Офис в Москве</h2>
-<p>
+<div>
 	 <?$APPLICATION->IncludeComponent(
-	"bitrix:map.google.view", 
-	".default", 
-	array(
+	"bitrix:map.yandex.view",
+	"",
+	Array(
 		"API_KEY" => "",
-		"CONTROLS" => array(
-			0 => "SCALELINE",
-		),
-		"INIT_MAP_TYPE" => "ROADMAP",
-		"KEY" => "ABQIAAAAOSNukcWVjXaGbDo6npRDcxS1yLxjXbTnpHav15fICwCqFS-qhhSby0EyD6rK_qL4vuBSKpeCz5cOjw",
-		"MAP_DATA" => "a:4:{s:10:\"google_lat\";d:55.73895232023193;s:10:\"google_lon\";d:37.58945015869141;s:12:\"google_scale\";i:14;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:4:\"TEXT\";s:23:\"Моя компания\";s:3:\"LON\";d:37.58610276184083;s:3:\"LAT\";d:55.73762350824325;}}}",
+		"CONTROLS" => array("ZOOM","SMALLZOOM","MINIMAP","TYPECONTROL","SCALELINE"),
+		"INIT_MAP_TYPE" => "MAP",
+		"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:55.76561505928558;s:10:\"yandex_lon\";d:37.60318300365257;s:12:\"yandex_scale\";i:17;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:37.60318300365262;s:3:\"LAT\";d:55.76561505929187;s:4:\"TEXT\";s:25:\"Наша компания\";}}}",
 		"MAP_HEIGHT" => "500",
 		"MAP_ID" => "",
 		"MAP_WIDTH" => "600",
-		"OPTIONS" => array(
-			0 => "ENABLE_SCROLL_ZOOM",
-			1 => "ENABLE_DBLCLICK_ZOOM",
-			2 => "ENABLE_DRAGGING",
-		),
-		"COMPONENT_TEMPLATE" => ".default"
-	),
-	false
-);?>
+		"OPTIONS" => array("ENABLE_SCROLL_ZOOM","ENABLE_DBLCLICK_ZOOM","ENABLE_RIGHT_MAGNIFIER")
+	)
+);?><br>
+</div>
+<p>
 </p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
